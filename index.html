@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terry Lee</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="whole__wrapper">
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="#home" id="navbar__logo">
+                <img src="images/image.png">
+                <div class="brand-logo-div"></div>
+                <div class="brand-logo-name">Portfolio</div>
+            </a>
+            <div class="navbar__toggle" id="moblie-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__links" id="home-page">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#about" class="navbar__links" id="about-page">Projects</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#services" class="navbar__links" id="services-page">About Me</a>
+                </li>
+                <li class="navbar__btn">
+                    <a href="#sign-up" class="button" id="signup">Contact Me</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="hero" id="home">
+        <div class="default__container">
+            <h1 class="hero__heading" id="hero__text">Terry Lee's<span> Website</span></h1>
+            <p class="hero__description">Let's Get Right Into It!</p>
+            <a href="images/resume.jpg" download='TerryLee_Resume'>
+                <button class="main__btn">Resume</button>
+            </a>
+            <div class="website__links">
+                
+                <a class="web__icons" href="https://github.com/sighlance" target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a>
+                <a class="web__icons" href="https://www.linkedin.com/in/terry-lee-8a36a124b/" target="_blank">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+                <a class="web__icons" href="https://www.youtube.com/channel/UCpqcscu22R1g8oip6-2wtVQ" target="_blank">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+    
+
+
+    <div class="about" id="about">
+        <div class="default__container">
+            <h1 id="about__text">Projects are Slowly Filling up...</h1>
+            <div class="wrapper">
+                <section class="about__item">box-1</section>
+                <section class="about__item">box-2</section>
+                <section class="about__item">box-3</section>
+                <section class="about__item">box-4</section>
+                <section class="about__item">box-5</section>
+            </div>
+        </div>
+    </div> 
+  
+
+
+    <div class="services" id="services">
+        <h1>Hover to know more!</h1>
+        <div class="services__container">
+            <div class="services__containergroups">
+                <div class="services__card" id="card1">
+                    <div class="card__container" id="container1">
+                        <h2 class="card-title">Background</h2>
+                        <p class="card-body">My home town is located in South Korea. I moved to Canada during my primary school years for a better environment to study and to make new friends. Currently I am a student who is pursuing a career in game development as both of my passions, coding and playing games coincide.</p>
+                    </div>
+                </div>
+                <div class="services__card" id="card2">
+                    <div class="card__container" id="container2">
+                        <h2 class="card-title">Hobbies</h2>
+                        <p class="card-body">
+                            I love working out, playing video games, chatting and hanging out with friends. I am a very big sports guy, and have played in amateur soccer leagues when I was young. Other sports I love to play include table tennis and swimming.
+                            </p>
+                    </div>
+                </div>
+            </div>
+                <div class="services__containergroups">
+                <div class="services__card" id="card3">
+                    <div class="card__container" id="container3">
+                        <h2 class="card-title">Interests</h2>
+                        <p class="card-body">My main interest lies in both game developing and video creation. The fact that I could turn my imagination into an experience everyone can enjoy, it got me hooked!</p>
+                    </div>
+                </div>
+                <div class="services__card" id="card4">
+                    <div class="card__container" id="container4">
+                        <h2 class="card-title">Gamer</h2>
+                        <p class="card-body">I am a huge gamer and always have been a competitor. Games up my arsenal includes dating all the way back to Starcraft II, and most recently League of Legends and Valorant. Check out my youtube channel where I occasionally post highlights.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+  
+
+   <!-- https://www.youtube.com/watch?v=Yg6POD0M30w&ab_channel=ADesignerWhoCodes -->
+    <div class="signup" id="sign-up">
+        <div class="default__container">   
+            <section class="join-main-section">
+                <h1 class="join-text">
+                    Contact me
+                    <span class="accent-text">right away!</span>
+                </h1>
+                
+                <form class="join-form" action="https://formsubmit.co/jlee0105678@gmail.com" method="POST">
+                    <input type="text" name="Name" placeholder="Full Name" required>
+                    <input type="email" name="Email" placeholder="Email" required>
+                    <textarea name="Message" placeholder="Message required"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+         </section>
+        </div> 
+    </div>
+
+ </div>
+    
+    <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
+
+<!-- Credits 
+
+https://www.youtube.com/watch?v=cH0TC9gWiAg&ab_channel=WebDevSimplified
+https://www.youtube.com/watch?v=3-2Pj5hxwrw&t=6351s&ab_channel=BrianDesign
+https://ionic.io/ionicons
+-->
+
